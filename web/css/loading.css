@@ -1,0 +1,53 @@
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(35, 167, 251), rgb(246, 62, 136));
+    z-index: 9999;
+}
+
+#logo {
+    width: 300px;
+    height: 75px;
+    margin: 10px auto;
+}
+
+#loader-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+#progress-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    background: #ffffff00;
+}
+
+#progress-bar-left,
+#progress-bar-right {
+    height: 3px;
+    background: #fff;    
+    position: absolute;
+    box-shadow: 0 0 10px #fff;
+}
+
+#progress-bar-left {
+    left: 0%;
+    width: 0;
+}
+
+#progress-bar-right {
+    right: 0%;
+    width: 0;
+}
+
+#progress-percentage {
+    position: relative;
+    top: 10px;
+    color: #fff;
+    font-size: 18px;
+}
