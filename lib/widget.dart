@@ -40,21 +40,26 @@ class _VideoScreenState extends State<VideoScreen> {
 
   void _showVideo() {
     _controller.play();
-    Get.dialog(WillPopScope(
-        onWillPop: () {
-          _closeVideo();
-          return Future.value(false);
-        },
+    Get.dialog(Material(
+        color: Colors.black.withOpacity(0),
         child: Stack(children: [
-          InkWell(
-              onTap: () {
-                _closeVideo();
-              },
-              child: Container(color: Colors.black.withOpacity(0))),
           Center(
               child: AspectRatio(
                   aspectRatio: _controller.value.aspectRatio,
-                  child: VideoPlayer(_controller)))
+                  child: VideoPlayer(_controller))),
+          SizedBox(
+              width: 1.sw,
+              child: Column(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    InkWell(
+                        onTap: () {
+                          _closeVideo();
+                        },
+                        child: Icon(Icons.close,
+                            color: Colors.white, size: 30.sp)),
+                  ]))
         ])));
   }
 
