@@ -15,4 +15,4 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 
-flutter build web --web-renderer html -vv --no-tree-shake-icons --pwa-strategy none --release --dart-define=FLUTTER_WEB_CANVASKIT_URL=https://cdn.jsdelivr.net/npm/canvaskit-wasm@0.38.1/bin/
+flutter build web -vv --web-renderer html --dart-define=FLUTTER_WEB_CANVASKIT_URL=https://cdn.jsdelivr.net/npm/canvaskit-wasm@0.38.1/bin

@@ -32,12 +32,7 @@ class HomeController extends GetxController {
     {
       'icon': 'qq',
       'url':
-          'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YdaGALK-Q2Vtxbt4qWF0PNE5g5EbwmvL&authKey=u8BR9XuOVSYJQYrt%2BwqCLUhjgX%2BF62WvZFucvLONYzm70asn4kSEBgAHmOO%2F3kTn&noverify=0&group_code=387118416'
-    },
-    {
-      'icon': 'qq',
-      'url':
-          'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YdaGALK-Q2Vtxbt4qWF0PNE5g5EbwmvL&authKey=u8BR9XuOVSYJQYrt%2BwqCLUhjgX%2BF62WvZFucvLONYzm70asn4kSEBgAHmOO%2F3kTn&noverify=0&group_code=673105016'
+          'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-pPGHln9yKNzS00OdFJRxZ69Q-rEX_nx&authKey=kLPWmtcFJCAPpgv18epf4MW9SxGPVGTqPKKWtbOt1C%2FTX%2ByIOEyjpYeMSGxe9KWZ&noverify=0&group_code=465805687'
     }
   ];
 

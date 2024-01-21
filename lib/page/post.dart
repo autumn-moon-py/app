@@ -47,7 +47,7 @@ class _PostPageState extends State<PostPage> with WidgetsBindingObserver {
               padding: EdgeInsets.symmetric(
                   horizontal: ls ? 0.2.sw : 20.w, vertical: 10.h),
               child: MarkdownText(data,
-                  style: const TextStyle(color: Colors.white))))
+                  style: const TextStyle(color: Colors.white, fontSize: 25))))
     ]);
   }
 
