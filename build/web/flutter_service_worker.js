@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"app/new/app-release-1.4.6.apk": "132cac0b829614f89cc736ff526cd843",
-"app/new/app-release.apk": "132cac0b829614f89cc736ff526cd843",
-"app/new/upgrade.json": "f5870dbe11657e979e7a8bfd785f12c4",
+const RESOURCES = {"app/new/app-release-1.4.7.apk": "f7201f48f52c7cf9821c6300870c1e37",
+"app/new/app-release.apk": "f7201f48f52c7cf9821c6300870c1e37",
+"app/new/upgrade.json": "e1f045a90308ad40731abdcb9e66ea52",
 "assets/AssetManifest.bin": "51b0dcf4e0aa55064f5c36aecfaa21e1",
 "assets/AssetManifest.json": "5032795dd93b5254737c30f181bcbdb8",
 "assets/assets/bg/menu_bg.webp": "91c51ede5f15bdf32c39242a8ade3e35",
@@ -56,8 +56,8 @@ const RESOURCES = {"app/new/app-release-1.4.6.apk": "132cac0b829614f89cc736ff526
 "icons/Icon-maskable-512.png": "73eaa27068a9242db69f7cfd858dde12",
 "icons/logo.png": "f13d28b01cfcd18385cefa99eed4afb6",
 "icons/logo.webp": "c2505b861f1051939d2d7d5080f1768e",
-"index.html": "5e94b19ab85849b2f7bf5b1a074f689a",
-"/": "5e94b19ab85849b2f7bf5b1a074f689a",
+"index.html": "b569cf25adb6490f4c1ffad5c09d602d",
+"/": "b569cf25adb6490f4c1ffad5c09d602d",
 "main.dart.js": "d1a0945ba92a223f8b7a27c89011f3f6",
 "manifest.json": "b76e7ed9d258266ebabf6627764ea3cc",
 "version.json": "b6ffbceb36969917d28f0438022ca3d5"};
