@@ -1,0 +1,81 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("assets/bg/S1-01-n.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.gradient-component {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  );
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  bottom: 0;
+}
+
+.gameinfo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gameinfo-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameinfo-logo1 {
+  height: 110px;
+}
+
+.gameinfo-logo3 {
+  height: 70px;
+  margin-top: 10px;
+}
+
+.gameinfo-text {
+  width: 85%;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.android {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #27a5f9, #f3408a);
+  color: white;
+  padding-left: 80px;
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+  font-size: 60px;
+}

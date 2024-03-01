@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>投喂页</title>
+    <link rel="stylesheet" type="text/css" href="pay.css" />
+    <style>
+      .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: url("assets/bg/start_bg.webp") no-repeat center center;
+        background-size: cover;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        display: grid;
+        place-items: center;
+      }
+
+      body {
+        margin: 0;
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 80%;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .wx {
+        width: 40%;
+      }
+
+      .zfb {
+        width: 50%;
+      }
+
+      a {
+        color: #007bff;
+        font-size: 40px;
+      }
+
+      .afd {
+        margin-right: 10px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background-image"></div>
+    <div class="container">
+      <h1>感谢投喂</h1>
+      <div class="row">
+        <a href="https://afdian.net/a/subrecovery" target="_blank">爱发电</a>
+      </div>
+      <div class="column">
+        <h2>微信</h2>
+        <img class="wx" src="assets/other/wx.webp" />
+      </div>
+      <div class="column">
+        <h2>支付宝</h2>
+        <img class="zfb" src="assets/other/zfb.webp" />
+      </div>
+    </div>
+  </body>
+</html>
