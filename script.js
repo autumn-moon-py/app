@@ -1,25 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var searchParams = new URLSearchParams(window.location.search);
-  if (searchParams.has("page")) {
-    const page = searchParams.get("page");
-    if (page === "pay") {
-      window.location.href = "./pay.html";
-    }
-    if (page === "privacy") {
-      window.location.href = "./privacy.html";
-    }
-  }
-});
-
 function checkOrientation() {
   var currentPath = window.location.pathname;
   var targetPath = window.matchMedia("(orientation: landscape)").matches
     ? "/pc.html"
-    : "/index.html";
+    : "/";
   if (currentPath !== targetPath) {
     window.location.href = targetPath;
   }
-  if (currentPath === "/index.html") {
+  if (currentPath === "/") {
     randomizeBackground();
   }
 }
