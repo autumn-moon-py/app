@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", checkOrientation);
 checkOrientation();
 
 document.querySelector(".android").addEventListener("click", function () {
-  const downloadUrl = `https://apk.subrecovery.top/app-release.apk`;
+  const downloadUrl = `https://download-cdn.486486486.xyz/app-release.apk`;
   window.location.href = downloadUrl;
 });
 
