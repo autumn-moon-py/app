@@ -32,23 +32,8 @@ document.addEventListener("DOMContentLoaded", checkOrientation);
 checkOrientation();
 
 document.querySelector(".android").addEventListener("click", function () {
-  fetch("app/new/upgrade.json")
-    .then((response) => {
-      if (response.ok) {
-        return response.json();
-      } else {
-        throw new Error("打开异常：upgrade.json");
-      }
-    })
-    .then((data) => {
-      const version = data.version;
-      const baseUrl = `${window.location.protocol}//${window.location.host}`;
-      const downloadUrl = `${baseUrl}/app/new/app-release-${version}.apk`;
-      window.location.href = downloadUrl;
-    })
-    .catch((error) => {
-      console.error("下载异常:", error);
-    });
+  const downloadUrl = `https://apk.subrecovery.top/app-release.apk`;
+  window.location.href = downloadUrl;
 });
 
 var mainButton = document.querySelector(".mainButton");
