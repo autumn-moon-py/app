@@ -27,8 +27,6 @@ function randomizeBackground() {
   }
 }
 
-window.addEventListener("orientationchange", checkOrientation);
-document.addEventListener("DOMContentLoaded", checkOrientation);
 checkOrientation();
 
 document.querySelector(".android").addEventListener("click", function () {
