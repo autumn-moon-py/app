@@ -27,7 +27,7 @@ function randomizeBackground() {
   }
 }
 
-checkOrientation();
+// checkOrientation();
 
 document.querySelector(".android").addEventListener("click", function () {
   const downloadUrl = `https://download-cdn.486486486.xyz/app-release.apk`;
